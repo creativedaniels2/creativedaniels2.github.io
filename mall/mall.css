@@ -1,0 +1,28 @@
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+header h1, nav ul li {
+  float: left;
+}
+header{
+  width: 50%
+}
+nav ul li {
+  border-right: 1px solid black;
+}
+nav ul li:last-child {
+  border-right: none;
+}
+header, nav, nav ul li a {
+  display: block;
+}
+nav ul li a {
+  text-align: center;
+  text-decoration: none;
+}
+nav ul li a:hover  {
+  background-color: blue;
+}
